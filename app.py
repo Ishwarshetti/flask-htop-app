@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 @app.route('/htop')
 def htop():
-    name = "Ishwar C Pattanshetty"  # Replace this with your real full name
+    name = "Ishwar C Pattanshetty"  
     username = getpass.getuser()
     ist_time = datetime.now(pytz.timezone("Asia/Kolkata")).strftime("%Y-%m-%d %H:%M:%S")
 
